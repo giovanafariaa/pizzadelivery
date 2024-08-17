@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5C16C;
+}
+
+.pizza-header {
+    background-color: #a8260e;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pizza-header .logo img {
+    height: 100px;
+}
+
+.pizza-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.pizza-nav ul li {
+    display: inline;
+}
+
+.pizza-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.pizza-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.chef-icon img {
+    height: 60px;
+}
+
+.pizza-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 50px 0;
+}
+
+.delivery-info {
+    width: 70%;
+}
+
+
+
+
+.promo-text {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #6A4416;
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+
+footer{
+    background-color: #a8260e;
+    height: 15vh;
+    width: 100%;
+}
+
+.delivery-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    background-color: #F5C16C;
+}
+.delivery-man{
+    width: 50%;
+    margin-bottom: -7vh;
+}
+
+.delivery-text {
+    max-width: 50%;
+    color: #6A4416;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.pizza-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+
+
+#pizza-img{
+    position: absolute;
+    bottom: 7vh;
+    right: 5%;
+}
+
+.order-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #F5C16C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.order-intro h2 {
+    color: #6A4416;
+    font-size: 28px;
+}
+
+.order-intro p {
+    color: #6A4416;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.order-form {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.order-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-form label {
+    color: #6A4416;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#endereco {
+    background-color: #FFF;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#pagamento {
+    background-color: #FFF;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.order-button {
+    margin-top: 20px;
+}
+
+.order-button button {
+    background-color: #D69A2E;
+    color: #6A4416;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.order-button button:hover {
+    background-color: #6A4416;
+    color: #FFF;
+}
+.menu-container {
+    background-color: #F9DD93;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #9E2C1A;
+    color: white;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F9B25B;
+}
+
+td {
+    padding: 10px;
+    color: #333;
+    text-align: center;
+}
+
+td strong {
+    color: #9E2C1A;
+}
+
+td:nth-child(1) {
+    text-align: left;
+    width: 50%;
+}
+
+
+.contato-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    padding: 5vh 0;
+    border-radius: 15px;
+
+}
+
+.contato-titulo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e54d26;
+    margin-bottom: 20px;
+}
+
+.contato-mensagem, .contato-detalhes {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5vh;
+    line-height: 1.6;
+    text-align: left;
+    margin-left: 7%;
+
+}
+
+.contato-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contato-coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-whatsapp, .contato-instagram, .contato-telefone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icone {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.pizzaria-nome {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e54d26;
+    margin-bottom: 10px;
+}
+
+.smartphone-img {
+    width: 100px;
+    height: auto;
+}
+
+.smartphone-texto {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2f9266;
+    margin-top: 10px;
+}
+
+.smartphone-numero {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.login-cadastro-container {
+    display: flex;
+    background-color: #f0b6aa;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-secao, .cadastro-secao {
+    padding: 40px;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-secao {
+    background-color: #d9878d;
+    width: 50%;
+    text-align: center;
+}
+
+.login-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c84a35;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #c84a35;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.google { border-color: #c84a35; }
+.facebook { border-color: #3b5998; }
+.twitter { border-color: #1da1f2; }
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #c84a35;
+    margin: 0 10px;
+}
+
+.divider span {
+    color: #c84a35;
+}
+
+.login-form .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #c84a35;
+}
+
+.esqueci-senha {
+    font-size: 14px;
+    color: #333;
+}
+
+.esqueci-senha span {
+    color: #c84a35;
+    font-weight: bold;
+}
+
+.cadastro-secao {
+    background-color: #a23f31;
+    color: #fff;
+    width: 50%;
+}
+
+.cadastro-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cadastro-form input, .cadastro-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.cadastro-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.data-nascimento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-nascimento select {
+    width: 30%;
+}
+
+.genero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.genero label {
+    font-size: 16px;
+}
+
+.info-politica, .termos {
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.info-politica a, .termos a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cadastro-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #a23f31;
+    background-color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}

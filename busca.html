@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Kaisei+Tokumin:wght@400;500;700;800&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="pizza-header">
+        <div class="logo">
+            <img src="logo.png" width="200px" alt="Logo Pizza">
+        </div>
+        <nav class="pizza-nav">
+            <ul>
+                <li><a href="sobre.html">Quem somos nós?</a></li>
+                <li><a href="busca.html">Buscar</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="pedido.html">Pedidos</a></li>
+                <li><a href="login.html">Entrar / Cadastrar</a></li>
+            </ul>
+        </nav>
+        <div class="chef-icon">
+            <img src="chef-icon.png" alt="Chef">
+        </div>
+    </header>
+
+    <section class="order-section">
+        <div id="img-order" style="width: 20%;">
+            <img src="fatia.png" width="100%" alt="">
+
+        </div>
+        <div id="texto-order" style="width: 70%;">
+        <div class="order-intro" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <h2>Olá, amante de pizza!</h2>
+            <p style="width: 70%;">Se você está procurando uma pizza deliciosa, entregue rapidamente e com a máxima qualidade, você veio ao lugar certo! Nossa empresa de delivery de pizza se dedica a proporcionar a melhor experiência gastronômica diretamente no conforto da sua casa.</p>
+        </div>
+        <div class="order-form">
+            <div class="order-address">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" value="R. Santa Cruz, 546 – Barroca, Belo Horizonte" readonly>
+            </div>
+            <div class="order-payment">
+                <label for="pagamento">Forma de Pagamento</label>
+                <select id="pagamento">
+                    <option value="pix">Pix</option>
+                    <option value="cartao">Cartão</option>
+                    <option value="dinheiro">Dinheiro</option>
+                </select>
+            </div>
+        </div>
+        <div class="order-button">
+            <button>CLIQUE PARA FAZER SEU PEDIDO!</button>
+        </div>
+    </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
